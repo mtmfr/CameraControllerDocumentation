@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['pitch_0',['pitch',['../class_camera_controller_1_1_camera3_d.html#aa90a861ce9dec4a61dfaae347308641d',1,'CameraController::Camera3D']]]
+  ['colliderradius_0',['colliderRadius',['../struct_camera_controller_1_1_collision_detection.html#acda07a1ca394cefa78bda3cab6dbe4c4',1,'CameraController::CollisionDetection']]],
+  ['collisionquery_1',['collisionQuery',['../struct_camera_controller_1_1_collision_detection.html#aa2d0a31a87ff734bed2bf1440682fdfc',1,'CameraController::CollisionDetection']]]
 ];

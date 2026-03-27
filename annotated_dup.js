@@ -7,8 +7,8 @@ var annotated_dup =
       [ "BaseCamera", "class_camera_controller_1_1_base_camera.html", "class_camera_controller_1_1_base_camera" ],
       [ "Camera2D", "class_camera_controller_1_1_camera2_d.html", "class_camera_controller_1_1_camera2_d" ],
       [ "CameraCollisionParameters", "class_camera_controller_1_1_camera_collision_parameters.html", null ],
-      [ "CollisionDetection", "struct_camera_controller_1_1_collision_detection.html", null ],
-      [ "DampingParams", "struct_camera_controller_1_1_damping_params.html", null ],
-      [ "RotationLimits", "struct_camera_controller_1_1_rotation_limits.html", null ]
+      [ "CollisionDetection", "struct_camera_controller_1_1_collision_detection.html", "struct_camera_controller_1_1_collision_detection" ],
+      [ "DampingParams", "struct_camera_controller_1_1_damping_params.html", "struct_camera_controller_1_1_damping_params" ],
+      [ "RotationLimits", "struct_camera_controller_1_1_rotation_limits.html", "struct_camera_controller_1_1_rotation_limits" ]
     ] ]
 ];

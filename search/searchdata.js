@@ -1,11 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "bcdfgiprstuy",
+  0: "bcdefgimprstuwy",
   1: "bcdfrt",
   2: "c",
   3: "gisu",
-  4: "f",
-  5: "py"
+  4: "ef",
+  5: "e",
+  6: "cmpwy"
 };
 
 var indexSectionNames =
@@ -15,7 +16,8 @@ var indexSectionNames =
   2: "namespaces",
   3: "functions",
   4: "enums",
-  5: "properties"
+  5: "enumvalues",
+  6: "properties"
 };
 
 var indexSectionLabels =
@@ -25,6 +27,7 @@ var indexSectionLabels =
   2: "Namespaces",
   3: "Functions",
   4: "Enumerations",
-  5: "Properties"
+  5: "Enumerator",
+  6: "Properties"
 };
 

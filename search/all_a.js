@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['updatecamera_0',['UpdateCamera',['../class_camera_controller_1_1_camera3_d.html#afba97eac43cc402538461c9cfcffd191',1,'CameraController.Camera3D.UpdateCamera()'],['../class_camera_controller_1_1_base_camera.html#aa8dff1b1cf30813ce4b3e0ea15332e3d',1,'CameraController.BaseCamera.UpdateCamera()'],['../class_camera_controller_1_1_camera2_d.html#a9debeeb5c51ad0277acbfb960582b88c',1,'CameraController.Camera2D.UpdateCamera()']]],
-  ['updatecameraposition_1',['UpdateCameraPosition',['../class_camera_controller_1_1_base_camera.html#afc2adb453b82eefb7ff14c611488ad02',1,'CameraController::BaseCamera']]],
-  ['updatefollowerposition_2',['UpdateFollowerPosition',['../class_camera_controller_1_1_base_camera.html#aa3edca6d1b2cb7fda583bed8505f5c54',1,'CameraController::BaseCamera']]]
+  ['setrotationlimits_0',['SetRotationLimits',['../class_camera_controller_1_1_camera3_d.html#a7e5d99196999162834e65a0a8d3b6290',1,'CameraController::Camera3D']]],
+  ['settargetfollowerrotation_1',['SetTargetFollowerRotation',['../class_camera_controller_1_1_camera3_d.html#afde8de784a63a36adb7ed7eb25366fdb',1,'CameraController::Camera3D']]]
 ];

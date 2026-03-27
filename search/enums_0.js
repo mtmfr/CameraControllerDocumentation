@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['followmode_0',['FollowMode',['../namespace_camera_controller.html#a645e0289a3bcdd9ae0c9ad0e70bf6ea1',1,'CameraController']]]
+  ['easetype_0',['EaseType',['../struct_camera_controller_1_1_damping_params.html#ad9881d914222de92915ec43c05b7d543',1,'CameraController::DampingParams']]]
 ];
