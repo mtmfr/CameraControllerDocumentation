@@ -103,17 +103,17 @@ Inheritance diagram for CameraController.Camera3D:</div>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a7e5d99196999162834e65a0a8d3b6290" id="r_a7e5d99196999162834e65a0a8d3b6290"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7e5d99196999162834e65a0a8d3b6290">SetRotationLimits</a> (<a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a> newYawLimits, <a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a> newPitchLimits)</td></tr>
-<tr class="memdesc:a7e5d99196999162834e65a0a8d3b6290"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the limits of the yaw and pitch rotation of the target follower.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a073fcd639c31a4f2a9046d8a7b6ce5eb" id="r_a073fcd639c31a4f2a9046d8a7b6ce5eb"><td class="memItemLeft"><a id="a073fcd639c31a4f2a9046d8a7b6ce5eb" name="a073fcd639c31a4f2a9046d8a7b6ce5eb"></a>
 virtual void&#160;</td><td class="memItemRight"><b>OnEnable</b> ()</td></tr>
 <tr class="memitem:afba97eac43cc402538461c9cfcffd191" id="r_afba97eac43cc402538461c9cfcffd191"><td class="memItemLeft">override void&#160;</td><td class="memItemRight"><a class="el" href="#afba97eac43cc402538461c9cfcffd191">UpdateCamera</a> ()</td></tr>
 <tr class="memdesc:afba97eac43cc402538461c9cfcffd191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the camera and the target follower position.  <br /></td></tr>
+<tr class="memitem:a7e5d99196999162834e65a0a8d3b6290" id="r_a7e5d99196999162834e65a0a8d3b6290"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7e5d99196999162834e65a0a8d3b6290">SetRotationLimits</a> (<a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a> newYawLimits, <a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a> newPitchLimits)</td></tr>
+<tr class="memdesc:a7e5d99196999162834e65a0a8d3b6290"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the limits of the yaw and pitch rotation of the target follower.  <br /></td></tr>
+<tr class="memitem:a550c04e8fa126e6d8cdc3aa5cd93471a" id="r_a550c04e8fa126e6d8cdc3aa5cd93471a"><td class="memItemLeft"><a id="a550c04e8fa126e6d8cdc3aa5cd93471a" name="a550c04e8fa126e6d8cdc3aa5cd93471a"></a>
+void&#160;</td><td class="memItemRight"><b>SetInputControl</b> (<a class="el" href="class_camera_controller_1_1_camera_input.html">CameraInput</a> newInputControl)</td></tr>
+<tr class="memdesc:a550c04e8fa126e6d8cdc3aa5cd93471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of the Camera input. <br /></td></tr>
 <tr class="inherit_header pro_methods_class_camera_controller_1_1_base_camera"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_camera_controller_1_1_base_camera')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_camera_controller_1_1_base_camera.html">CameraController.BaseCamera</a></td></tr>
 <tr class="memitem:acce8055551af00795a40a7d90158675b inherit pro_methods_class_camera_controller_1_1_base_camera" id="r_acce8055551af00795a40a7d90158675b"><td class="memItemLeft">
 virtual void&#160;</td><td class="memItemRight"><b>Awake</b> ()</td></tr>
@@ -133,38 +133,17 @@ void&#160;</td><td class="memItemRight"><b>UpdateCameraPosition</b> ()</td></tr>
 float&#160;</td><td class="memItemRight"><b>GetDeltaTime</b> ()</td></tr>
 <tr class="memdesc:a6e4f47a0e22ec0f8bec3d5a78990d6bb inherit pro_methods_class_camera_controller_1_1_base_camera"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the deltatime based on the cuurent followmode. <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:aa5068d616b3b880ba52df85245f9d4fe" id="r_aa5068d616b3b880ba52df85245f9d4fe"><td class="memItemLeft"><a id="aa5068d616b3b880ba52df85245f9d4fe" name="aa5068d616b3b880ba52df85245f9d4fe"></a>
-Vector2&#160;</td><td class="memItemRight"><b>sensitivity</b></td></tr>
-<tr class="inherit_header pro_attribs_class_camera_controller_1_1_base_camera"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_camera_controller_1_1_base_camera')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_camera_controller_1_1_base_camera.html">CameraController.BaseCamera</a></td></tr>
-<tr class="memitem:a50c678568d54917060627ceca27c818d inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a50c678568d54917060627ceca27c818d"><td class="memItemLeft">
-Transform&#160;</td><td class="memItemRight"><b>target</b></td></tr>
-<tr class="memitem:a7844b67a802d99995f2ede111b22246f inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a7844b67a802d99995f2ede111b22246f"><td class="memItemLeft">
-Transform&#160;</td><td class="memItemRight"><b>targetFollower</b></td></tr>
-<tr class="memitem:ab32be5b54aef5aa2ca0f98c705401150 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ab32be5b54aef5aa2ca0f98c705401150"><td class="memItemLeft">
-Transform&#160;</td><td class="memItemRight"><b>cameraTransform</b></td></tr>
-<tr class="memitem:a14044fd25cbb72ac1093d3e604c318d5 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a14044fd25cbb72ac1093d3e604c318d5"><td class="memItemLeft">
-Vector3&#160;</td><td class="memItemRight"><b>offset</b></td></tr>
-<tr class="memitem:ada31fe489ca751a5c60ae9ccaa80a85f inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ada31fe489ca751a5c60ae9ccaa80a85f"><td class="memItemLeft">
-<a class="el" href="namespace_camera_controller.html#a645e0289a3bcdd9ae0c9ad0e70bf6ea1">FollowMode</a>&#160;</td><td class="memItemRight"><b>followMode</b></td></tr>
-<tr class="memitem:aa110a347d20bdd71e44ee4ef4439eab8 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_aa110a347d20bdd71e44ee4ef4439eab8"><td class="memItemLeft">
-float&#160;</td><td class="memItemRight"><b>followDamping</b></td></tr>
-<tr class="memitem:ab983f265c0ff620a9c938bff299707fb inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ab983f265c0ff620a9c938bff299707fb"><td class="memItemLeft">
-Vector3&#160;</td><td class="memItemRight"><b>followSmoothDampVelocity</b></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:af46ce098fbde954a859350b081b51812" id="r_af46ce098fbde954a859350b081b51812"><td class="memItemLeft"><a id="af46ce098fbde954a859350b081b51812" name="af46ce098fbde954a859350b081b51812"></a>
 Quaternion&#160;</td><td class="memItemRight"><b>yaw</b><code> [get]</code></td></tr>
-<tr class="memdesc:af46ce098fbde954a859350b081b51812"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the camera on the y axis. <br /></td></tr>
+<tr class="memdesc:af46ce098fbde954a859350b081b51812"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the controller on the y axis. <br /></td></tr>
 <tr class="memitem:aa90a861ce9dec4a61dfaae347308641d" id="r_aa90a861ce9dec4a61dfaae347308641d"><td class="memItemLeft"><a id="aa90a861ce9dec4a61dfaae347308641d" name="aa90a861ce9dec4a61dfaae347308641d"></a>
 Quaternion&#160;</td><td class="memItemRight"><b>pitch</b><code> [get]</code></td></tr>
-<tr class="memdesc:aa90a861ce9dec4a61dfaae347308641d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the camera on the x axis. <br /></td></tr>
-<tr class="memitem:ae8981fae115af67295e08511ab9a4319" id="r_ae8981fae115af67295e08511ab9a4319"><td class="memItemLeft"><a id="ae8981fae115af67295e08511ab9a4319" name="ae8981fae115af67295e08511ab9a4319"></a>
-float&#160;</td><td class="memItemRight"><b>horizontalSensitivity</b><code> [get, set]</code></td></tr>
-<tr class="memitem:a9e4490a5e0abe81b38f2f46efa75e13f" id="r_a9e4490a5e0abe81b38f2f46efa75e13f"><td class="memItemLeft"><a id="a9e4490a5e0abe81b38f2f46efa75e13f" name="a9e4490a5e0abe81b38f2f46efa75e13f"></a>
-float&#160;</td><td class="memItemRight"><b>verticalSensitivity</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa90a861ce9dec4a61dfaae347308641d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the controller on the x axis. <br /></td></tr>
+<tr class="memitem:a0268fd2bbdf34002c1fb8ac530b8d929" id="r_a0268fd2bbdf34002c1fb8ac530b8d929"><td class="memItemLeft"><a id="a0268fd2bbdf34002c1fb8ac530b8d929" name="a0268fd2bbdf34002c1fb8ac530b8d929"></a>
+Quaternion&#160;</td><td class="memItemRight"><b>rotation</b><code> [get]</code></td></tr>
+<tr class="memdesc:a0268fd2bbdf34002c1fb8ac530b8d929"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the controller. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -192,10 +171,28 @@ Quaternion&#160;</td><td class="memItemRight"><b>pitchRotation</b> = Quaternion.
 <a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a>&#160;</td><td class="memItemRight"><b>pitchRotationLimits</b></td></tr>
 <tr class="memitem:a18ffb7170feef8fbe34ca148623a12e7" id="r_a18ffb7170feef8fbe34ca148623a12e7"><td class="memItemLeft"><a id="a18ffb7170feef8fbe34ca148623a12e7" name="a18ffb7170feef8fbe34ca148623a12e7"></a>
 <a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a>&#160;</td><td class="memItemRight"><b>yawRotationLimits</b></td></tr>
-<tr class="memitem:aff7c93299beb4a84079b5c8190a75273" id="r_aff7c93299beb4a84079b5c8190a75273"><td class="memItemLeft"><a id="aff7c93299beb4a84079b5c8190a75273" name="aff7c93299beb4a84079b5c8190a75273"></a>
-InputActionReference&#160;</td><td class="memItemRight"><b>look</b></td></tr>
+<tr class="memitem:a55f99452f40ef0287aa5d1d559a10190" id="r_a55f99452f40ef0287aa5d1d559a10190"><td class="memItemLeft"><a id="a55f99452f40ef0287aa5d1d559a10190" name="a55f99452f40ef0287aa5d1d559a10190"></a>
+<a class="el" href="class_camera_controller_1_1_camera_input.html">CameraInput</a>&#160;</td><td class="memItemRight"><b>inputControl</b></td></tr>
 <tr class="memitem:aa01e34b0bb070ffe7857fbca6484ebb2" id="r_aa01e34b0bb070ffe7857fbca6484ebb2"><td class="memItemLeft"><a id="aa01e34b0bb070ffe7857fbca6484ebb2" name="aa01e34b0bb070ffe7857fbca6484ebb2"></a>
 Vector2&#160;</td><td class="memItemRight"><b>lookInputDir</b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_camera_controller_1_1_base_camera"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_camera_controller_1_1_base_camera')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_camera_controller_1_1_base_camera.html">CameraController.BaseCamera</a></td></tr>
+<tr class="memitem:a50c678568d54917060627ceca27c818d inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a50c678568d54917060627ceca27c818d"><td class="memItemLeft">
+Transform&#160;</td><td class="memItemRight"><b>target</b></td></tr>
+<tr class="memitem:a7844b67a802d99995f2ede111b22246f inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a7844b67a802d99995f2ede111b22246f"><td class="memItemLeft">
+Transform&#160;</td><td class="memItemRight"><b>targetFollower</b></td></tr>
+<tr class="memitem:ab32be5b54aef5aa2ca0f98c705401150 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ab32be5b54aef5aa2ca0f98c705401150"><td class="memItemLeft">
+Transform&#160;</td><td class="memItemRight"><b>cameraTransform</b></td></tr>
+<tr class="memitem:a14044fd25cbb72ac1093d3e604c318d5 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_a14044fd25cbb72ac1093d3e604c318d5"><td class="memItemLeft">
+Vector3&#160;</td><td class="memItemRight"><b>offset</b></td></tr>
+<tr class="memitem:ada31fe489ca751a5c60ae9ccaa80a85f inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ada31fe489ca751a5c60ae9ccaa80a85f"><td class="memItemLeft">
+<a class="el" href="namespace_camera_controller.html#a645e0289a3bcdd9ae0c9ad0e70bf6ea1">FollowMode</a>&#160;</td><td class="memItemRight"><b>followMode</b></td></tr>
+<tr class="memitem:aa110a347d20bdd71e44ee4ef4439eab8 inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_aa110a347d20bdd71e44ee4ef4439eab8"><td class="memItemLeft">
+float&#160;</td><td class="memItemRight"><b>followDamping</b></td></tr>
+<tr class="memitem:ab983f265c0ff620a9c938bff299707fb inherit pro_attribs_class_camera_controller_1_1_base_camera" id="r_ab983f265c0ff620a9c938bff299707fb"><td class="memItemLeft">
+Vector3&#160;</td><td class="memItemRight"><b>followSmoothDampVelocity</b></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a503fc6d925181a762e191527217cc2ec" name="a503fc6d925181a762e191527217cc2ec"></a>
@@ -349,6 +346,9 @@ Vector2&#160;</td><td class="memItemRight"><b>lookInputDir</b></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CameraController.Camera3D.SetRotationLimits </td>
@@ -361,6 +361,11 @@ Vector2&#160;</td><td class="memItemRight"><b>lookInputDir</b></td></tr>
           <td class="paramtype"><a class="el" href="struct_camera_controller_1_1_rotation_limits.html">RotationLimits</a></td>          <td class="paramname"><span class="paramname"><em>newPitchLimits</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the limits of the yaw and pitch rotation of the target follower. </p>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yaw_0',['yaw',['../class_camera_controller_1_1_camera3_d.html#af46ce098fbde954a859350b081b51812',1,'CameraController::Camera3D']]]
+  ['lookaction_0',['lookAction',['../class_camera_controller_1_1_camera_input.html#ad7d9beea62044639b336a175a4b3751c',1,'CameraController::CameraInput']]]
 ];

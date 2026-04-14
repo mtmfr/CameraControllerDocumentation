@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['isviewblocked_0',['IsViewBlocked',['../class_camera_controller_1_1_third_person_camera.html#a0d13457593c48b012fa8fb6c4cec0101',1,'CameraController::ThirdPersonCamera']]],
-  ['iswithinallowedrotation_1',['IsWithinAllowedRotation',['../class_camera_controller_1_1_camera3_d.html#a6ce42f48d51c7cbab22134a89456be28',1,'CameraController::Camera3D']]]
+  ['haslookahead_0',['hasLookAhead',['../class_camera_controller_1_1_camera2_d_look_ahead_control.html#a7fae28fa4ba9bf2c88c9a496595a0b77',1,'CameraController::Camera2DLookAheadControl']]],
+  ['horizontalsensitivity_1',['horizontalSensitivity',['../class_camera_controller_1_1_camera_input.html#acb533dc6d309428013b93996af6bca80',1,'CameraController::CameraInput']]]
 ];

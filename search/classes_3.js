@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['firstpersoncamera_0',['FirstPersonCamera',['../class_camera_controller_1_1_first_person_camera.html',1,'CameraController']]]
+  ['rotationlimits_0',['RotationLimits',['../struct_camera_controller_1_1_rotation_limits.html',1,'CameraController']]]
 ];

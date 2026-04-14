@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mask_0',['mask',['../struct_camera_controller_1_1_collision_detection.html#ade20cf95d356386f4c57fcf90c93e0af',1,'CameraController::CollisionDetection']]],
-  ['maxangle_1',['MaxAngle',['../struct_camera_controller_1_1_rotation_limits.html#a3f74753c0324740b29e195460b85b4ed',1,'CameraController::RotationLimits']]],
-  ['minangle_2',['MinAngle',['../struct_camera_controller_1_1_rotation_limits.html#ac9ede77a67bc0df2acd2f640515361ef',1,'CameraController::RotationLimits']]]
+  ['isviewblocked_0',['IsViewBlocked',['../class_camera_controller_1_1_third_person_camera.html#a0d13457593c48b012fa8fb6c4cec0101',1,'CameraController::ThirdPersonCamera']]],
+  ['iswithinallowedrotation_1',['IsWithinAllowedRotation',['../class_camera_controller_1_1_camera3_d.html#a6ce42f48d51c7cbab22134a89456be28',1,'CameraController::Camera3D']]]
 ];

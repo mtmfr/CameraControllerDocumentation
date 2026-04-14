@@ -136,12 +136,16 @@ void&#160;</td><td class="memItemRight"><b>Start</b> ()</td></tr>
 void&#160;</td><td class="memItemRight"><b>OnEnable</b> ()</td></tr>
 <tr class="memitem:aef108a0b088afb141a66294c4816f479" id="r_aef108a0b088afb141a66294c4816f479"><td class="memItemLeft"><a id="aef108a0b088afb141a66294c4816f479" name="aef108a0b088afb141a66294c4816f479"></a>
 void&#160;</td><td class="memItemRight"><b>OnDisable</b> ()</td></tr>
-<tr class="memitem:adad97b7f45b44b2a0df848c834fbdb19" id="r_adad97b7f45b44b2a0df848c834fbdb19"><td class="memItemLeft"><a id="adad97b7f45b44b2a0df848c834fbdb19" name="adad97b7f45b44b2a0df848c834fbdb19"></a>
-void&#160;</td><td class="memItemRight"><b>SetLookAheadDir</b> (InputAction.CallbackContext context)</td></tr>
-<tr class="memitem:a49e8bcc4e90e34fc1c476bc98fbcdaf8" id="r_a49e8bcc4e90e34fc1c476bc98fbcdaf8"><td class="memItemLeft"><a id="a49e8bcc4e90e34fc1c476bc98fbcdaf8" name="a49e8bcc4e90e34fc1c476bc98fbcdaf8"></a>
-void&#160;</td><td class="memItemRight"><b>LookAhead</b> ()</td></tr>
-<tr class="memitem:a9b64b733a1e2feff82197c72a89dbdae" id="r_a9b64b733a1e2feff82197c72a89dbdae"><td class="memItemLeft"><a id="a9b64b733a1e2feff82197c72a89dbdae" name="a9b64b733a1e2feff82197c72a89dbdae"></a>
-float&#160;</td><td class="memItemRight"><b>GetLookAhead</b> (float currentLookAhead, float maxLookAhead, float damping)</td></tr>
+<tr class="memitem:a820af342769313efcb18bb0836c2caae" id="r_a820af342769313efcb18bb0836c2caae"><td class="memItemLeft"><a id="a820af342769313efcb18bb0836c2caae" name="a820af342769313efcb18bb0836c2caae"></a>
+void&#160;</td><td class="memItemRight"><b>UpdateOffsetDirection</b> ()</td></tr>
+<tr class="memdesc:a820af342769313efcb18bb0836c2caae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the direction the offset is looking at when the target facing direction change. <br /></td></tr>
+<tr class="memitem:adad97b7f45b44b2a0df848c834fbdb19" id="r_adad97b7f45b44b2a0df848c834fbdb19"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adad97b7f45b44b2a0df848c834fbdb19">SetLookAheadDir</a> (InputAction.CallbackContext context)</td></tr>
+<tr class="memdesc:adad97b7f45b44b2a0df848c834fbdb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of the look ahead input.  <br /></td></tr>
+<tr class="memitem:a44770b2d11c5fb2f86196cfb285a54a8" id="r_a44770b2d11c5fb2f86196cfb285a54a8"><td class="memItemLeft"><a id="a44770b2d11c5fb2f86196cfb285a54a8" name="a44770b2d11c5fb2f86196cfb285a54a8"></a>
+void&#160;</td><td class="memItemRight"><b>UpdateLookAhead</b> ()</td></tr>
+<tr class="memdesc:a44770b2d11c5fb2f86196cfb285a54a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the current look ahead. <br /></td></tr>
+<tr class="memitem:a0f4970f76ac061d9f6fbbaa23f746466" id="r_a0f4970f76ac061d9f6fbbaa23f746466"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a0f4970f76ac061d9f6fbbaa23f746466">GetNewLookAhead</a> (float startValue, float inputDir, float maxLookAhead, float currentValue)</td></tr>
+<tr class="memdesc:a0f4970f76ac061d9f6fbbaa23f746466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the new lookahead of the given value.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -152,20 +156,16 @@ static void&#160;</td><td class="memItemRight"><b>CreateCamera</b> ()</td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a88ebe36e16d6973b4eccdb3f6f37d1c5" id="r_a88ebe36e16d6973b4eccdb3f6f37d1c5"><td class="memItemLeft"><a id="a88ebe36e16d6973b4eccdb3f6f37d1c5" name="a88ebe36e16d6973b4eccdb3f6f37d1c5"></a>
 bool&#160;</td><td class="memItemRight"><b>offsetFollowMovement</b></td></tr>
-<tr class="memitem:ad4854afe1e1f5df2873232e08a4e3a1a" id="r_ad4854afe1e1f5df2873232e08a4e3a1a"><td class="memItemLeft"><a id="ad4854afe1e1f5df2873232e08a4e3a1a" name="ad4854afe1e1f5df2873232e08a4e3a1a"></a>
-float&#160;</td><td class="memItemRight"><b>offsetDamping</b></td></tr>
-<tr class="memitem:acf40275515f2b05b2656a0d3110ae29f" id="r_acf40275515f2b05b2656a0d3110ae29f"><td class="memItemLeft"><a id="acf40275515f2b05b2656a0d3110ae29f" name="acf40275515f2b05b2656a0d3110ae29f"></a>
-float&#160;</td><td class="memItemRight"><b>offsetDir</b> = 1f</td></tr>
-<tr class="memitem:a7c1d3a035b92fabf729e4c6e196c24ca" id="r_a7c1d3a035b92fabf729e4c6e196c24ca"><td class="memItemLeft"><a id="a7c1d3a035b92fabf729e4c6e196c24ca" name="a7c1d3a035b92fabf729e4c6e196c24ca"></a>
-InputActionReference&#160;</td><td class="memItemRight"><b>lookAheadInput</b></td></tr>
-<tr class="memitem:a069af29a624d7fe02b6902e979944be7" id="r_a069af29a624d7fe02b6902e979944be7"><td class="memItemLeft"><a id="a069af29a624d7fe02b6902e979944be7" name="a069af29a624d7fe02b6902e979944be7"></a>
-Vector2&#160;</td><td class="memItemRight"><b>maxLookAhead</b></td></tr>
-<tr class="memitem:af0ec74a9c400ee05e323c5e7e1ac09e5" id="r_af0ec74a9c400ee05e323c5e7e1ac09e5"><td class="memItemLeft"><a id="af0ec74a9c400ee05e323c5e7e1ac09e5" name="af0ec74a9c400ee05e323c5e7e1ac09e5"></a>
-float&#160;</td><td class="memItemRight"><b>lookAheadDamping</b></td></tr>
-<tr class="memitem:a8510976891a4f23d093f758209d36efb" id="r_a8510976891a4f23d093f758209d36efb"><td class="memItemLeft"><a id="a8510976891a4f23d093f758209d36efb" name="a8510976891a4f23d093f758209d36efb"></a>
-Vector2&#160;</td><td class="memItemRight"><b>lookAheadDir</b></td></tr>
-<tr class="memitem:a8fd205e8a71f483aeaf8687528f46d55" id="r_a8fd205e8a71f483aeaf8687528f46d55"><td class="memItemLeft"><a id="a8fd205e8a71f483aeaf8687528f46d55" name="a8fd205e8a71f483aeaf8687528f46d55"></a>
-Vector2&#160;</td><td class="memItemRight"><b>lookAhead</b></td></tr>
+<tr class="memitem:a253b90790aa198fad41aca66ebd1c15b" id="r_a253b90790aa198fad41aca66ebd1c15b"><td class="memItemLeft"><a id="a253b90790aa198fad41aca66ebd1c15b" name="a253b90790aa198fad41aca66ebd1c15b"></a>
+<a class="el" href="struct_smoothing_parameters.html">SmoothingParameters</a>&#160;</td><td class="memItemRight"><b>offsetSmoothingParams</b></td></tr>
+<tr class="memitem:ae06bd0ace249c7be42df30ef3a819c0b" id="r_ae06bd0ace249c7be42df30ef3a819c0b"><td class="memItemLeft"><a id="ae06bd0ace249c7be42df30ef3a819c0b" name="ae06bd0ace249c7be42df30ef3a819c0b"></a>
+float&#160;</td><td class="memItemRight"><b>offsetFacingDir</b> = 1f</td></tr>
+<tr class="memitem:a4fd7599d14679541e2aaa475f176bf39" id="r_a4fd7599d14679541e2aaa475f176bf39"><td class="memItemLeft"><a id="a4fd7599d14679541e2aaa475f176bf39" name="a4fd7599d14679541e2aaa475f176bf39"></a>
+<a class="el" href="class_camera_controller_1_1_camera2_d_look_ahead_control.html">Camera2DLookAheadControl</a>&#160;</td><td class="memItemRight"><b>lookAheadControl</b></td></tr>
+<tr class="memitem:aea659bbc7bc439913320dee378bf8cb8" id="r_aea659bbc7bc439913320dee378bf8cb8"><td class="memItemLeft"><a id="aea659bbc7bc439913320dee378bf8cb8" name="aea659bbc7bc439913320dee378bf8cb8"></a>
+Vector2&#160;</td><td class="memItemRight"><b>lookAheadInputDir</b></td></tr>
+<tr class="memitem:a789e580503f483f482b85e6f6bbfcd1f" id="r_a789e580503f483f482b85e6f6bbfcd1f"><td class="memItemLeft"><a id="a789e580503f483f482b85e6f6bbfcd1f" name="a789e580503f483f482b85e6f6bbfcd1f"></a>
+Vector2&#160;</td><td class="memItemRight"><b>currentLookAhead</b></td></tr>
 <tr class="memitem:a0395da4d6b554d02b975c1f244a7e921" id="r_a0395da4d6b554d02b975c1f244a7e921"><td class="memItemLeft"><a id="a0395da4d6b554d02b975c1f244a7e921" name="a0395da4d6b554d02b975c1f244a7e921"></a>
 Vector3&#160;</td><td class="memItemRight"><b>currentOffset</b></td></tr>
 </table><table class="memberdecls">
@@ -188,6 +188,90 @@ float&#160;</td><td class="memItemRight"><b>followDamping</b></td></tr>
 Vector3&#160;</td><td class="memItemRight"><b>followSmoothDampVelocity</b></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0f4970f76ac061d9f6fbbaa23f746466" name="a0f4970f76ac061d9f6fbbaa23f746466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4970f76ac061d9f6fbbaa23f746466">&#9670;&#160;</a></span>GetNewLookAhead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraController.Camera2D.GetNewLookAhead </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>startValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inputDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxLookAhead</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>currentValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the new lookahead of the given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startValue</td><td>the default position if no input are given.</td></tr>
+    <tr><td class="paramname">inputDir</td><td>the direction of the input. Should be '-1' or '1'.</td></tr>
+    <tr><td class="paramname">maxLookAhead</td><td>the maximum value the lookahead can have. Is the limit for both the positive and negative.</td></tr>
+    <tr><td class="paramname">currentValue</td><td>The current look ahead.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value of the look ahead</dd></dl>
+
+</div>
+</div>
+<a id="adad97b7f45b44b2a0df848c834fbdb19" name="adad97b7f45b44b2a0df848c834fbdb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adad97b7f45b44b2a0df848c834fbdb19">&#9670;&#160;</a></span>SetLookAheadDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraController.Camera2D.SetLookAheadDir </td>
+          <td>(</td>
+          <td class="paramtype">InputAction.CallbackContext</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the value of the look ahead input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9debeeb5c51ad0277acbfb960582b88c" name="a9debeeb5c51ad0277acbfb960582b88c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9debeeb5c51ad0277acbfb960582b88c">&#9670;&#160;</a></span>UpdateCamera()</h2>
 

@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['easein_0',['EaseIn',['../struct_camera_controller_1_1_damping_params.html#ad9881d914222de92915ec43c05b7d543a477b68e0e4cd72802355d52831fee0ca',1,'CameraController::DampingParams']]],
-  ['easeintheneaseout_1',['EaseInThenEaseOut',['../struct_camera_controller_1_1_damping_params.html#ad9881d914222de92915ec43c05b7d543aab15570031ccd672fcd7a35458287e1e',1,'CameraController::DampingParams']]],
-  ['easeout_2',['EaseOut',['../struct_camera_controller_1_1_damping_params.html#ad9881d914222de92915ec43c05b7d543a4d8256186c9d4f47eb7e7b7766812bd9',1,'CameraController::DampingParams']]],
-  ['easetype_3',['EaseType',['../struct_camera_controller_1_1_damping_params.html#ad9881d914222de92915ec43c05b7d543',1,'CameraController::DampingParams']]]
+  ['easein_0',['EaseIn',['../namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4a477b68e0e4cd72802355d52831fee0ca',1,'CameraController']]],
+  ['easeintheneaseout_1',['EaseInThenEaseOut',['../namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4aab15570031ccd672fcd7a35458287e1e',1,'CameraController']]],
+  ['easeout_2',['EaseOut',['../namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4a4d8256186c9d4f47eb7e7b7766812bd9',1,'CameraController']]],
+  ['easetype_3',['EaseType',['../namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4',1,'CameraController']]],
+  ['easingtype_4',['EasingType',['../struct_smoothing_parameters.html#a90debfc5b069d398c8b66222c57b8919',1,'SmoothingParameters']]],
+  ['easingtype_5',['easingType',['../class_camera_controller_1_1_camera2_d_look_ahead_control.html#a46d01a126b6664d18d93348947431e58',1,'CameraController::Camera2DLookAheadControl']]]
 ];
