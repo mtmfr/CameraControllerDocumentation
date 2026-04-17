@@ -11,7 +11,7 @@ var annotated_dup =
       [ "CameraInput", "class_camera_controller_1_1_camera_input.html", "class_camera_controller_1_1_camera_input" ],
       [ "CollisionDetection", "struct_camera_controller_1_1_collision_detection.html", "struct_camera_controller_1_1_collision_detection" ],
       [ "RotationLimits", "struct_camera_controller_1_1_rotation_limits.html", "struct_camera_controller_1_1_rotation_limits" ],
-      [ "Smoothing", "class_camera_controller_1_1_smoothing.html", "class_camera_controller_1_1_smoothing" ]
-    ] ],
-    [ "SmoothingParameters", "struct_smoothing_parameters.html", "struct_smoothing_parameters" ]
+      [ "Smoothing", "class_camera_controller_1_1_smoothing.html", "class_camera_controller_1_1_smoothing" ],
+      [ "SmoothingParameters", "struct_camera_controller_1_1_smoothing_parameters.html", "struct_camera_controller_1_1_smoothing_parameters" ]
+    ] ]
 ];

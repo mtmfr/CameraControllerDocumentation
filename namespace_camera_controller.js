@@ -11,6 +11,7 @@ var namespace_camera_controller =
     [ "CollisionDetection", "struct_camera_controller_1_1_collision_detection.html", "struct_camera_controller_1_1_collision_detection" ],
     [ "RotationLimits", "struct_camera_controller_1_1_rotation_limits.html", "struct_camera_controller_1_1_rotation_limits" ],
     [ "Smoothing", "class_camera_controller_1_1_smoothing.html", "class_camera_controller_1_1_smoothing" ],
+    [ "SmoothingParameters", "struct_camera_controller_1_1_smoothing_parameters.html", "struct_camera_controller_1_1_smoothing_parameters" ],
     [ "EaseType", "namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4", [
       [ "Linear", "namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4a32a843da6ea40ab3b17a3421ccdf671b", null ],
       [ "EaseIn", "namespace_camera_controller.html#a327bc54e4f8cf4dbb53440f12a05ecd4a477b68e0e4cd72802355d52831fee0ca", null ],

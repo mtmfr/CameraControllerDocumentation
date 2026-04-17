@@ -17,5 +17,5 @@ var hierarchy =
       ] ]
     ] ],
     [ "CameraController.Smoothing", "class_camera_controller_1_1_smoothing.html", null ],
-    [ "SmoothingParameters", "struct_smoothing_parameters.html", null ]
+    [ "CameraController.SmoothingParameters", "struct_camera_controller_1_1_smoothing_parameters.html", null ]
 ];
